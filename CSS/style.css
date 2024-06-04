@@ -1,0 +1,48 @@
+/* Style pour la barre de navigation */
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #ffc107; /* Fond jaune */
+    padding: 10px 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Ombre */
+}
+
+/* Style pour le logo */
+.logo {
+    width: 50px; /* Ajustez la taille selon votre logo */
+    margin-right: 10px;
+}
+
+/* Style pour le titre */
+h1 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+/* Style pour la liste de navigation */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style pour les éléments de la liste de navigation */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Style pour les liens de navigation */
+nav ul li a {
+    text-decoration: none;
+    color: #333; /* Couleur du texte */
+    font-weight: bold;
+}
+
+/* Style pour les liens de navigation au survol */
+nav ul li a:hover {
+    color: #555; /* Couleur du texte au survol */
+}
+

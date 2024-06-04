@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blagues App - Accueil</title>
+    <link rel="stylesheet" href="CSS/style.css"> <!-- Lien vers votre fichier CSS -->
+    <script src="JS/script.js"></script> <!-- Lien vers votre fichier JavaScript -->
+</head>
+<body>
+    <header>
+        <img src="images/logo-removebg-preview.png" alt="Votre entreprise" class="logo">
+        <h1>Blagues App</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Toutes les blagues</a></li>
+                <li><a href="#">Blague aléatoire</a></li>
+                <li><a href="#">Rechercher par ID</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h2>Bienvenue sur Blagues App !</h2>
+            <p>Découvrez les meilleures blagues et amusez-vous bien.</p>
+        </section>
+
+        <section class="jokes-list">
+            <!-- Ici, vous pouvez afficher une liste de blagues -->
+            <!-- Chaque blague peut être affichée sous forme de carte ou de liste -->
+        </section>
+
+        <section class="random-joke">
+            <!-- Ici, vous pouvez afficher la blague aléatoire -->
+        </section>
+
+        <section class="search-by-id">
+            <h3>Rechercher une blague par ID</h3>
+            <form id="searchForm">
+                <label for="jokeId">ID de la blague :</label>
+                <input type="text" id="jokeId" name="jokeId" required>
+                <button type="submit">Rechercher</button>
+            </form>
+            <div class="search-result" style="display: none;">
+                <h3>Résultat de la recherche :</h3>
+                <div class="joke" id="searchedJoke"></div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Blagues App. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
